@@ -30,6 +30,11 @@
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<developers>
+		<developer>
+			<name>Chris Twiner</name>
+		</developer>
+	</developers>
 
 	<scm>
 		<connection>scm:git:https://github.com/sparkutils/hadoop-bare-naked-local-fs.git</connection>
@@ -209,6 +214,12 @@
 					<autoReleaseAfterClose>true</autoReleaseAfterClose>
 					<stagingProgressTimeoutMinutes>15</stagingProgressTimeoutMinutes>
 				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.8.0</version>
 			</plugin>
 		</plugins>
 
