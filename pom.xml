@@ -38,8 +38,6 @@
 	</scm>
 
 	<properties>
-		<maven.compiler.release>8</maven.compiler.release>
-
 		<mavenCompilerPluginVersion>3.8.1</mavenCompilerPluginVersion>
 		<mavenJarPluginVersion>3.2.0</mavenJarPluginVersion>
 		<mavenShadePluginVersion>3.2.1</mavenShadePluginVersion>
