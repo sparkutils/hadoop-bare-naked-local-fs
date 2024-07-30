@@ -13,7 +13,7 @@ _The name of this project refers to the `BareLocalFileSystem` and `NakedLocalFil
 <dependency>
   <groupId>com.sparkutils</groupId>
   <artifactId>hadoop-bare-naked-local-fs</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0</version>
 </dependency>
 ```
 
