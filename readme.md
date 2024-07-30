@@ -1,4 +1,6 @@
-# GlobalMentor Hadoop Bare Naked Local FileSystem
+# GlobalMentor Hadoop Bare Naked Local FileSystem - A Sparkutils fork
+
+This fork is raised due to [this PR](https://github.com/globalmentor/hadoop-bare-naked-local-fs/pull/5) not progressing.  The lack of an abstract file system implementation in the original project stops Delta usage and Spark Streaming.  Only the package artifact has changed, the class packages are still per the pull request.
 
 A Hadoop local `FileSystem` implementation directly accessing the Java API without Winutils, suitable for use with Spark.
 
@@ -9,7 +11,7 @@ _The name of this project refers to the `BareLocalFileSystem` and `NakedLocalFil
 1. If you have an application that needs Hadoop local `FileSystem` support without relying on Winutils, import the latest [`com.globalmentor:hadoop-bare-naked-local-fs`](https://search.maven.org/artifact/com.globalmentor/hadoop-bare-naked-local-fs) library into your project, e.g. in Maven for v0.1.0:
 ```xml
 <dependency>
-  <groupId>com.globalmentor</groupId>
+  <groupId>com.sparkutils</groupId>
   <artifactId>hadoop-bare-naked-local-fs</artifactId>
   <version>0.1.0</version>
 </dependency>
